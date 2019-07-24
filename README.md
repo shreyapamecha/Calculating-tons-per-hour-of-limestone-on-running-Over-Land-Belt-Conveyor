@@ -17,3 +17,9 @@ Methodology:
   3. Finding Contours
   
   4. Determining Area of the white region
+  
+Limitations:
+  1. Selection of Unwanted Areas.
+  2. Accuracy on stake (Morphological Operation)
+     Kernel used in the closing operation: 20 X 20
+     The larger the size of the kernel, lower will be the accuracy level.
